@@ -100,19 +100,19 @@ http://localhost:8000/create/events/<br>
 http://localhost:8000/create/selections/<br>
 
 For update functionality:<br>
-http://localhost:8000/update/sports/<id>/<br>
-http://localhost:8000/update/events/<id>/<br>
-http://localhost:8000/update/selections/<id>/<br>
+http://localhost:8000/update/sports/id/<br>
+http://localhost:8000/update/events/id/<br>
+http://localhost:8000/update/selections/id/<br>
 
 For filter functionality:<br>
-http://localhost:8000/filter/events/?sport_name=<name of the sport>/<br>
-http://localhost:8000/filter/selections/?event_name=<name of the event>/<br>
+http://localhost:8000/filter/events/?sport_name=Football/<br>
+http://localhost:8000/filter/selections/?event_name=Football match/<br>
 http://localhost:8000/filter/selections/?min_price=10&max_price=15/<br>
 
 For delete functionality:<br>
-http://localhost:8000/delete/sport/<id>/<br>
-http://localhost:8000/delete/event/<id>/<br>
-http://localhost:8000/delete/selection/<id>/<br>
+http://localhost:8000/delete/sport/id/<br>
+http://localhost:8000/delete/event/id/<br>
+http://localhost:8000/delete/selection/id/<br>
 
 
 
