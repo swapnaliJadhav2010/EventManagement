@@ -10,6 +10,7 @@ Time complexity is best if we are using solution 2.
 
 # Event Management System
 Create the Sport event management system where you have 4 different app to hanlde the add,change,select and delete functionality of sports, events and seletion tablethrough Rest API.<br>
+I am using Sqlite3 database
 
 
 ## Prerequisites:
@@ -20,7 +21,7 @@ Postman<br>
 Install Python and Django<br>
 -sudo apt install python<br>
 -python -m venv myenv<br>
--cd myenv\Scripts\activate (use .\activate)<br>
+-cd myenv\Scripts\activate (if given command not working use .\activate in script dir)<br>
 
 Verify installations:<br>
 -python3 --version<br>
@@ -30,7 +31,7 @@ Verify installations:<br>
 -cd EventManagement<br>
 -pip install -r requirements.txt<br>
 
-### Run Django Project
+## Run Django Project
 Create the user to handle admin part<br>
 -python manage.py createsuperuser<br>
 
@@ -78,13 +79,20 @@ check the events available for particular sport: you can that all the below even
 <img width="597" alt="filterBySportName" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/c6d6feda-2f3f-478e-9170-f3a71755197b"><br>
 check the selections available for particular event: when you give the event_name, all the available selections will be appear<br>
 <img width="593" alt="filterByEventName" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/2d2d076f-778b-4d0d-9a8b-754d40f79d51"><br>
-check the price in the range : I had added 4 selection but only two are between the range of min and max price<br>
+check the price in the range : I added 4 selection but only two are between the range of min and max price<br>
 <img width="587" alt="filterByPrice" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/d217aa3c-6f04-4dde-a150-583bbadbb90a">
 
 #### Test the delete functionality:
 use sport id to delete it:<br>
 <img width="593" alt="deletesport" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/c29df915-a5a3-4224-8189-5b08598c2570"><br>
 you can delete the events and selections in same way
+
+## Deployment on docker
+There is Dockerfile present in git repository which contains all the information such as command to run prerequisite, and run this django project.<br>
+Now run the following commands in terminal navigating to project root directory:
+docker build -t sportevents .<br>
+docker run -p 8000:8000 sportevents
+
 
 
 
