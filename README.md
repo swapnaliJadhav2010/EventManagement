@@ -91,7 +91,29 @@ you can delete the events and selections in same way
 There is Dockerfile present in git repository which contains all the information such as command to run prerequisite, and run this django project.<br>
 Now run the following commands in terminal navigating to project root directory:<br>
 docker build -t sportevents .<br>
-docker run -p 8000:8000 sportevents
+docker run -p 8000:8000 sportevents<br>
+This command maps the container's port 8000 to the host's port 8000, allowing you to access the Django application at http://localhost:8000 in your web browser.<br><br>
+
+For create functionality:<br> 
+http://localhost:8000/create/sports/<br>
+http://localhost:8000/create/events/<br>
+http://localhost:8000/create/selections/<br>
+
+For update functionality:<br>
+http://localhost:8000/update/sports/<id>/<br>
+http://localhost:8000/update/events/<id>/<br>
+http://localhost:8000/update/selections/<id>/<br>
+
+For filter functionality:<br>
+http://localhost:8000/filter/events/?sport_name=<name of the sport>/<br>
+http://localhost:8000/filter/selections/?event_name=<name of the event>/<br>
+http://localhost:8000/filter/selections/?min_price=10&max_price=15/<br>
+
+For delete functionality:<br>
+http://localhost:8000/delete/sport/<id>/<br>
+http://localhost:8000/delete/event/<id>/<br>
+http://localhost:8000/delete/selection/<id>/<br>
+
 
 
 
