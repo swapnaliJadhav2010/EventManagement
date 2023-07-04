@@ -9,7 +9,8 @@ Time complexity is best if we are using solution 2.
 
 
 # Event Management System
-Create the Sport event management system where you can add,change,select and delete the data of sports, events and seletion tablethrough Rest API.
+Create the Sport event management system where you have 4 different app to hanlde the add,change,select and delete functionality of sports, events and seletion tablethrough Rest API.<br>
+
 
 ## Prerequisites:
 Visual Studio code with python installed <br>
