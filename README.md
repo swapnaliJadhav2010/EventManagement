@@ -15,8 +15,8 @@ Verify installations:<br>
 -python3 --version<br>
 
 ### Clone Repository
-git clone <repository_url><br>
-cd <repository_directory><br>
+git clone https://github.com/swapnaliJadhav2010/EventManagement.git<br>
+cd EventManagement<br>
 pip install -r requirements.txt<br>
 
 ### Run Django Project
