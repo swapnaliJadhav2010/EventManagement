@@ -1,8 +1,18 @@
+
+# Find the Internal nodes:
+We have list of parents of index value. so basically we already have all the nodes which has at least 1 child node. I convert the list into set so that I will get all the nodes which has at least one child. I removed -1 because it denoted as rott node's parent which is not exist.<br>
+I have implemented 2 ways to count the internal node<br>
+Solution 1: We can create the set which has no duplicate value using loop interation.<br>
+Solution 2: We can directly use set() to convert list into set<br>
+Time complexity is best if we are using solution 2. 
+
+
+
 # Event Management System
 Create the Sport event management system where you can add,change,select and delete the data of sports, events and seletion tablethrough Rest API.
 
 ## Prerequisites:
-Visual Studio code with python installation<br>
+Visual Studio code with python installed <br>
 Postman<br>
 
 ### Installation:
@@ -15,17 +25,17 @@ Verify installations:<br>
 -python3 --version<br>
 
 ### Clone Repository
-git clone https://github.com/swapnaliJadhav2010/EventManagement.git<br>
-cd EventManagement<br>
-pip install -r requirements.txt<br>
+-git clone https://github.com/swapnaliJadhav2010/EventManagement.git<br>
+-cd EventManagement<br>
+-pip install -r requirements.txt<br>
 
 ### Run Django Project
 Create the user to handle admin part<br>
-python manage.py createsuperuser<br>
+-python manage.py createsuperuser<br>
 
-python manage.py makemigrations<br>
-python manage.py migrate<br>
-python manage.py runserver<br>
+-python manage.py makemigrations<br>
+-python manage.py migrate<br>
+-python manage.py runserver<br>
 
 Your project will be running on http://127.0.0.1:8000<br>
 Open this url in browser- http://127.0.0.1:8000/admin<br>
@@ -33,6 +43,7 @@ use the username and passowrd you created while creating the superuser<br>
 click on '+ADD' in frony of Tokens , Then select user . This will create the Token(Note this token)
 
 ### Postman to Test the endpoint
+For Authentication:<br>
 Put the token in Headers as showen below:<br>
  <img width="503" alt="token" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/372d3e12-de76-40b7-8a24-eb3e9d3c3d05">
 #### Test the Add functionality:
@@ -56,14 +67,14 @@ I changed the name from Tennis to Table Tennis<br>
 <img width="590" alt="updateSelection" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/6ec6237c-93bb-430f-b2c3-6202529d3a59"><br>
 
 #### Test the filter functionality:
-check the events available for particular sport:<br>
+check the events available for particular sport: you can that all the below events have "sport":1 value, Thats because sport_name Football is belong to id 1.<br>
 <img width="597" alt="filterBySportName" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/c6d6feda-2f3f-478e-9170-f3a71755197b"><br>
-check the selections available for particular event<br>
+check the selections available for particular event: when you give the event_name, all the available selections will be appear<br>
 <img width="593" alt="filterByEventName" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/2d2d076f-778b-4d0d-9a8b-754d40f79d51"><br>
-check the price in the range<br>
+check the price in the range : I had added 4 selection but only two are between the range of min and max price<br>
 <img width="587" alt="filterByPrice" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/d217aa3c-6f04-4dde-a150-583bbadbb90a">
 
-### Test the delete functionality:
+#### Test the delete functionality:
 use sport id to delete it:<br>
 <img width="593" alt="deletesport" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/c29df915-a5a3-4224-8189-5b08598c2570"><br>
 you can delete the events and selections in same way
