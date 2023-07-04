@@ -106,7 +106,7 @@ http://localhost:8000/update/selections/id/<br>
 
 For filter functionality:<br>
 http://localhost:8000/filter/events/?sport_name=Football/<br>
-http://localhost:8000/filter/selections/?event_name=Football match/<br>
+http://localhost:8000/filter/selections/?event_name=Footballmatch/<br>
 http://localhost:8000/filter/selections/?min_price=10&max_price=15/<br>
 
 For delete functionality:<br>
