@@ -36,13 +36,21 @@ click on '+ADD' in frony of Tokens , Then select user . This will create the Tok
 Put the token in Headers as showen below:<br>
  <img width="503" alt="token" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/372d3e12-de76-40b7-8a24-eb3e9d3c3d05">
 #### Test the Add functionality:
-Test adding the sports, events and selection with json payload as shown :<br>
+POST method: Test adding the sports, events and selection with json payload as shown :<br>
 <img width="602" alt="createsport" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/3a7a3809-be7a-4211-8547-696392379856"><br>
 <img width="587" alt="createevents" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/0b112cac-8831-475e-a7d5-d37b73dd3c0f"><br>
 <img width="584" alt="createselection" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/cffc9ad5-72d7-4a14-a616-a03bd2e7b70c"><br>
 
+#### Test if you can see all the instances:
+GET method:<br>
+<img width="581" alt="getsports" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/a3473f6d-8142-4de2-9b60-dc099a871b18"><br>
+<img width="593" alt="getevents" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/08f107b9-5ab4-4b13-8073-7e1dd1dff677"><br>
+<img width="562" alt="getselection" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/0f9ac20e-3a3e-45b8-ae08-32483bcb5a66"><br>
+
+
 #### Test the update functionality:
 you need to use the id of the instance you want to change :<br>
+I changed the name from Tennis to Table Tennis<br>
 <img width="582" alt="updatesport" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/746aebd7-d0bf-4b52-98a8-fa24373c8200"><br>
 <img width="581" alt="updateevents" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/e07f8613-9355-4255-ac09-7e13380f7dd7"><br>
 <img width="590" alt="updateSelection" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/6ec6237c-93bb-430f-b2c3-6202529d3a59"><br>
