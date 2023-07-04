@@ -1,8 +1,13 @@
+
+# Find the Internal nodes:
+We have list of parents of 
+
+
 # Event Management System
 Create the Sport event management system where you can add,change,select and delete the data of sports, events and seletion tablethrough Rest API.
 
 ## Prerequisites:
-Visual Studio code with python installation<br>
+Visual Studio code with python installed <br>
 Postman<br>
 
 ### Installation:
@@ -56,11 +61,11 @@ I changed the name from Tennis to Table Tennis<br>
 <img width="590" alt="updateSelection" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/6ec6237c-93bb-430f-b2c3-6202529d3a59"><br>
 
 #### Test the filter functionality:
-check the events available for particular sport:<br>
+check the events available for particular sport: you can that all the below events have "sport":1 value, Thats because sport_name Football is belong to id 1.<br>
 <img width="597" alt="filterBySportName" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/c6d6feda-2f3f-478e-9170-f3a71755197b"><br>
-check the selections available for particular event<br>
+check the selections available for particular event: when you give the event_name, all the available selections will be appear<br>
 <img width="593" alt="filterByEventName" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/2d2d076f-778b-4d0d-9a8b-754d40f79d51"><br>
-check the price in the range<br>
+check the price in the range : I had added 4 selection but only two are between the range of min and max price<br>
 <img width="587" alt="filterByPrice" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/d217aa3c-6f04-4dde-a150-583bbadbb90a">
 
 ### Test the delete functionality:
