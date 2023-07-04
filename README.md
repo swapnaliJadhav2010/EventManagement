@@ -89,7 +89,7 @@ you can delete the events and selections in same way
 
 ## Deployment on docker
 There is Dockerfile present in git repository which contains all the information such as command to run prerequisite, and run this django project.<br>
-Now run the following commands in terminal navigating to project root directory:
+Now run the following commands in terminal navigating to project root directory:<br>
 docker build -t sportevents .<br>
 docker run -p 8000:8000 sportevents
 
