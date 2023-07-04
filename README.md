@@ -25,17 +25,17 @@ Verify installations:<br>
 -python3 --version<br>
 
 ### Clone Repository
-git clone https://github.com/swapnaliJadhav2010/EventManagement.git<br>
-cd EventManagement<br>
-pip install -r requirements.txt<br>
+-git clone https://github.com/swapnaliJadhav2010/EventManagement.git<br>
+-cd EventManagement<br>
+-pip install -r requirements.txt<br>
 
 ### Run Django Project
 Create the user to handle admin part<br>
-python manage.py createsuperuser<br>
+-python manage.py createsuperuser<br>
 
-python manage.py makemigrations<br>
-python manage.py migrate<br>
-python manage.py runserver<br>
+-python manage.py makemigrations<br>
+-python manage.py migrate<br>
+-python manage.py runserver<br>
 
 Your project will be running on http://127.0.0.1:8000<br>
 Open this url in browser- http://127.0.0.1:8000/admin<br>
@@ -43,6 +43,7 @@ use the username and passowrd you created while creating the superuser<br>
 click on '+ADD' in frony of Tokens , Then select user . This will create the Token(Note this token)
 
 ### Postman to Test the endpoint
+For Authentication:<br>
 Put the token in Headers as showen below:<br>
  <img width="503" alt="token" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/372d3e12-de76-40b7-8a24-eb3e9d3c3d05">
 #### Test the Add functionality:
@@ -73,7 +74,7 @@ check the selections available for particular event: when you give the event_nam
 check the price in the range : I had added 4 selection but only two are between the range of min and max price<br>
 <img width="587" alt="filterByPrice" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/d217aa3c-6f04-4dde-a150-583bbadbb90a">
 
-### Test the delete functionality:
+#### Test the delete functionality:
 use sport id to delete it:<br>
 <img width="593" alt="deletesport" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/c29df915-a5a3-4224-8189-5b08598c2570"><br>
 you can delete the events and selections in same way
