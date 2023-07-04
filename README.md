@@ -1,6 +1,11 @@
 
 # Find the Internal nodes:
-We have list of parents of 
+We have list of parents of index value. so basically we already have all the nodes which has at least 1 child node. I convert the list into set so that I will get all the nodes which has at least one child. I removed -1 because it denoted as rott node's parent which is not exist.<br>
+I have implemented 2 ways to count the internal node<br>
+Solution 1: We can create the set which has no duplicate value using loop interation.<br>
+Solution 2: We can directly use set() to convert list into set<br>
+Time complexity is best if we are using solution 2. 
+
 
 
 # Event Management System
