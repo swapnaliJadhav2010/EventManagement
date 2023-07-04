@@ -33,9 +33,9 @@ use the username and passowrd you created while creating the superuser<br>
 click on '+ADD' in frony of Tokens , Then select user . This will create the Token(Note this token)
 
 ### Postman to Test the endpoint
-Put the token in params 
-![Token Insertion](<img width="503" alt="image" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/78864ea6-276c-448e-b840-7f7b5dde8c44">
-)
+Put the token in Headers as showen below:<br>
+ <img width="503" alt="token" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/372d3e12-de76-40b7-8a24-eb3e9d3c3d05">
+
 
 
 
