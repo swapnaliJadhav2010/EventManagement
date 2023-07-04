@@ -68,7 +68,7 @@ I changed the name from Tennis to Table Tennis<br>
 <img width="581" alt="updateevents" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/e07f8613-9355-4255-ac09-7e13380f7dd7"><br>
 <img width="590" alt="updateSelection" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/6ec6237c-93bb-430f-b2c3-6202529d3a59"><br>
 when you update the status in events as 'started' , it will set the actual_start parameter to the current time<br>
-<img width="602" alt="actul_start" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/ae374fa0-190a-486b-ac99-49bb3bf23951">
+<img width="602" alt="actul_start" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/ae374fa0-190a-486b-ac99-49bb3bf23951"><br>
 Also when your all selection instances associated with particular event id is false, then in event that event set to false<br>
 <img width="604" alt="activeFalse" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/90f59483-7230-482c-9ee4-b800a9e97687">
 
