@@ -22,3 +22,19 @@ def product(input):
 input = [1, 2, 3, 4, 5]
 print(product(input))
 
+def prod(input):
+  prod= 1
+  output =[]
+  for i in input:
+    prod *= i
+
+  for i in input:
+    ans = prod / i
+    output.append(round(ans))
+  return output
+
+input = [1, 2, 3, 4, 5]
+print(prod(input))
+
+
+
