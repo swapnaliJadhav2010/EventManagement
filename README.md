@@ -1,7 +1,14 @@
 
 # Product of all except the one itslef:
-<img width="163" alt="product" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/e81111a7-55a2-4be1-96d3-aa4bcd0a1ad9">
-
+<img width="163" alt="product" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/e81111a7-55a2-4be1-96d3-aa4bcd0a1ad9"><br>
+working :
+first(i) loop will traverse through all the elements of input list:
+    second(j) loop will traverse through all the elements of input list:
+        also will check if the i ==j:
+           continue
+        product of all elements except the continue statement element
+    append all the products in output list
+    prod ==1 so that new loop start with 1
 
 
 # Event Management System
