@@ -1,20 +1,4 @@
 
-# Product of all except the one itself:
-<img width="163" alt="product" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/e81111a7-55a2-4be1-96d3-aa4bcd0a1ad9"><br>
-In this code time complexity is O(n^2)
-working :<br>
-first(i) loop will traverse through all the elements of input list:<br>
-    second(j) loop will traverse through all the elements of input list:<br>
-        also will check if the i ==j:<br>
-           continue<br>
-        product of all elements except the continue statement element<br>
-    append all the products in output list<br>
-    prod ==1 so that new loop start with 1<br>
-<img width="185" alt="product1" src="https://github.com/swapnaliJadhav2010/EventManagement/assets/126250475/01641984-c778-4fbb-a539-b4495b2d8b2c"><br>
-in this code I have reduced the time complexity of code to o(n)
-
-
-
 # Event Management System
 Create the Sport event management system where you have 4 different app to hanlde the add,change,select and delete functionality of sports, events and seletion tablethrough Rest API.<br>
 I am using Sqlite3 database
